@@ -28,7 +28,7 @@ Options:
 ```
 
 # Example Instructions.h after compilation
-```
+```c
 #ifndef INSTRUCTIONS_H
 #define INSTRUCTIONS_H
 Instruction instructions[5] = {
