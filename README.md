@@ -3,8 +3,6 @@
 
 # NikmaASM
 
-![Logo](https://github.com/vexorus/NikmaASM/blob/main/Debug.png)
-
 NikmaASM is an assembly language and compiler written in C#, which translates assembly code into a C file containing an array of instruction structures. These instructions are then executed on the NikmaVM virtual processor. This project is designed for those interested in virtual machine development, assembly languages, and low-level programming.
 
 **NikmaVM** is a 32-bit virtual processor fully written in C. The virtual machine has 14 registers for various purposes and a stack.
@@ -29,6 +27,8 @@ Options:
     -d, --debug    Enable VM debug
     -x64           Compile x64 (default x32)
 ```
+
+![Logo](https://github.com/vexorus/NikmaASM/blob/main/Debug.png)
 
 # Example Instructions.h after compilation
 ```c
