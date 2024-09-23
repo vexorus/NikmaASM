@@ -26,6 +26,40 @@ Options:
     -d, --debug    Enable VM debug
     -x64           Compile x64 (default x32)
 ```
+
+# Example Instructions.h after compilation
+```
+#ifndef INSTRUCTIONS_H
+#define INSTRUCTIONS_H
+Instruction instructions[5] = {
+{
+.opcode = OP_MOV_n,
+.first_operand.reg = ra,
+.second_operand.num = 500
+},
+{
+.opcode = OP_MOV_n,
+.first_operand.reg = rc,
+.second_operand.num = 100
+},
+{
+.opcode = OP_SUB_r,
+.first_operand.reg = ra,
+.second_operand.reg = rc
+},
+{
+.opcode = OP_MUL_n,
+.first_operand.reg = ra,
+.second_operand.num = 2
+},
+{
+.opcode = OP_PUSH_r,
+.first_operand.reg = ra
+}
+};
+#endif INSTRUCTIONS_H
+```
+
 # Instruction Table
 
 | Hex Value | Command   | Arguments         | Description                                                      | Example           |
