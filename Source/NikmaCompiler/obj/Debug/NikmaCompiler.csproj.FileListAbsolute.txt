@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\NikmaCompiler\NikmaCompiler\obj\Debug\NikmaCompiler.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\NikmaCompiler\NikmaCompiler\obj\Debug\NikmaCompiler.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\NikmaCompiler\NikmaCompiler\bin\Debug\NikmaASM.exe.config
+C:\Users\user\source\repos\NikmaCompiler\NikmaCompiler\bin\Debug\NikmaASM.exe
+C:\Users\user\source\repos\NikmaCompiler\NikmaCompiler\bin\Debug\NikmaASM.pdb
+C:\Users\user\source\repos\NikmaCompiler\NikmaCompiler\obj\Debug\NikmaASM.exe
+C:\Users\user\source\repos\NikmaCompiler\NikmaCompiler\obj\Debug\NikmaASM.pdb
