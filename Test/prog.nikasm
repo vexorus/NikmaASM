@@ -1,0 +1,21 @@
+push "Advapi32.dll"
+import [sp]
+push "aaaaaaaaaaaa"
+mov r1, sp
+mov rb, sp
+push 256
+mov r2, sp
+call GetUserNameA
+import kernel32.dll
+push "bbbbbbbbbbbb"
+mov r1, sp
+mov rc, sp
+push 256
+mov r2, sp
+call GetComputerNameA
+import user32.dll
+xor r1, r1
+mov r2, rc
+mov r3, rb
+mov r4, 1
+call MessageBoxA
