@@ -16,6 +16,8 @@ NikmaASM is an assembly language and compiler written in C#, which translates as
 - **External function calls**: Supports calling functions from external libraries like WinAPI via import and call instructions.
 - **I/O operations**: Ability to input and output data.
 
+> [!WARNING]
+> This project is in beta testing. It may contain errors and bugs. Use at your own risk.
 ## Usage
 ```cmd
 NikmaASM.exe <file.nikasm> [option]
