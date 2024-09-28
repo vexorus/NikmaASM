@@ -1,3 +1,4 @@
+![Project Preview](https://github.com/vexorus/NikmaASM/blob/main/Logo.png)
 ![Logo](https://github.com/vexorus/NikmaASM/blob/main/Logo.png)
 <br /> <a href="https://github.com/vexorus/NikmaASM/releases/latest"> <img src="https://img.shields.io/github/v/release/vexorus/NikmaASM"></img> </a> <a href="#"> <img src="https://img.shields.io/github/downloads/vexorus/NikmaASM/total"></img> </a> <a href="https://github.com/vexorus/NikmaASM/commits/master"> <img src="https://img.shields.io/github/last-commit/vexorus/NikmaASM"></img> </a>
 
